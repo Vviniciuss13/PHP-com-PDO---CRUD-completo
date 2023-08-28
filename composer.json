@@ -1,0 +1,14 @@
+{
+    "autoload":{
+        "psr-4":{
+          "Source\\": "source/"
+        },
+        "files":[
+          "source/config.php"
+        ]
+      },
+    "require": {
+        "coffeecode/router": "1.0.*",
+        "league/plates": "v4.0.0-alpha"
+    }
+}
